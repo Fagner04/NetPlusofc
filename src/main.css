@@ -1,0 +1,119 @@
+@import url("header.css");
+@import url("menu.css");
+@import url("home.css");
+
+:root {
+  --icone-dish-rate: #e9a209;
+  --border-bottom: #804597;
+  --background-color: #9559ab;
+  --title: #f0d3fc;
+}
+
+body {
+  background: linear-gradient(90deg, #ffffff4a, rgba(192, 171, 230, 0.333));
+}
+
+.social-media-buttons {
+  display: flex;
+  gap: 18px;
+}
+
+.btn-default-sacola {
+  /* BUTÃO */
+  border: none;
+  padding: 5px 10px;
+  border-radius: 12px;
+  /* background-color: var(--background-color); */
+  background-color: #6e6a6a;
+  font-weight: 600;
+  color: #ffffff;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.btn-default-sacola:hover {
+  transition: all 0.9s ease;
+  background-color: var(--background-color);
+}
+
+.btn-default {
+  /* BUTÃO */
+  border: none;
+  padding: 10px 14px;
+  border-radius: 12px;
+  background-color: var(--background-color);
+  font-weight: 600;
+  color: #ffffff;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.btn-default:hover {
+  transition: all 0.9s ease;
+  background-color: #6e6c6e;
+}
+
+#button01 {
+  box-shadow: 10px 10px 10px rgb(159, 159, 164);
+}
+
+.social-media-buttons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 40px;
+  background-color: rgb(253, 251, 255);
+  font-size: 1.25rem;
+  border-radius: 10px;
+  text-decoration: none;
+  color: black;
+  box-shadow: 0 0 12px 2px rgba(196, 190, 223, 0.534);
+}
+
+.social-media-buttons a:hover {
+  box-shadow: 0 0 12px 2px rgba(111, 67, 176, 0.503);
+}
+
+.section-title {
+  color: var(--background-color);
+  font-size: 2rem;
+}
+
+.section-subtitle {
+  font-size: 2.1875rem;
+}
+
+.degrade {
+  background: linear-gradient(200deg, rgb(87, 44, 118), rgb(169, 169, 175));
+  width: 14rem;
+  height: 3px;
+  /* box-shadow: 0 0px 5px 1px #6c458c; */
+  border-radius: 25px;
+  margin: 0 90px;
+}
+
+@media screen and (max-width: 1812px) {
+  .degrade {
+    background: linear-gradient(200deg, rgb(87, 44, 118), rgb(169, 169, 175));
+    width: 14rem;
+    height: 3px;
+    /* box-shadow: 0 0px 5px 1px #6c458c; */
+    border-radius: 25px;
+    margin: 0 -1px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .degrade {
+    background: linear-gradient(200deg, rgb(87, 44, 118), rgb(169, 169, 175));
+    width: 14rem;
+    height: 3px;
+    /* box-shadow: 0 0px 5px 1px #6c458c; */
+    border-radius: 25px;
+    margin: 0 100px;
+  }
+
+  body {
+    background: linear-gradient(90deg, #ffffff4a, rgba(251, 249, 255, 0.333));
+  }
+}
