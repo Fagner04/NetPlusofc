@@ -10,6 +10,10 @@
   --title: #f0d3fc;
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
   background: linear-gradient(90deg, #ffffff4a, rgba(192, 171, 230, 0.333));
 }
