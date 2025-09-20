@@ -67,10 +67,17 @@
   border-radius: 25px;
 }
 
-#banner {
-  position: relative;
-  top: -325px;
+/* #banner {
+  position: absolute;
+  top: -500px;
   left: 50em;
+  z-index: 2;
+} */
+
+#banner {
+  position: absolute;
+  top: 175px;
+  left: 55em;
   z-index: 2;
 }
 
