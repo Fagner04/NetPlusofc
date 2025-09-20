@@ -146,6 +146,7 @@
 
   #cta_buttons {
     flex-direction: column;
+    display: none;
     /* width: 80%; */
     /* display: flex; */
   }
