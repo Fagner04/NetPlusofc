@@ -30,6 +30,10 @@ header {
   color: #a152d9;
 }
 
+.logoPng img {
+  border-radius: 50px;
+}
+
 #navbar {
   width: 100%;
   display: flex;
@@ -38,7 +42,7 @@ header {
 }
 
 #navbar img {
-  height: 100px;
+  height: 70px;
 }
 
 #nav_list {
